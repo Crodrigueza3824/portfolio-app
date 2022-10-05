@@ -8,13 +8,12 @@ import { store } from './store'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 
-  <BrowserRouter>
-      <Provider store={ store }>
-          <React.StrictMode>
-              <PortfolioApp />
-          </React.StrictMode>    
-      </Provider>
-  </BrowserRouter>
+
+    <BrowserRouter>
+        <Provider store={ store }>
+            <PortfolioApp />
+        </Provider>
+    </BrowserRouter>
   
 )
 
